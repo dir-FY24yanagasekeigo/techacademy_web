@@ -1,0 +1,35 @@
+header {
+	height : 50px;
+	background-color : #ffdddd;
+}
+
+#wrapper {
+	overflow : hidden;
+}
+
+#main {
+	float : left;
+	width : 70%;
+	height : 120px;
+	background-color : #ddffdd;
+}
+
+aside {
+	float : right;
+	width : 30%;
+	height : 120px;
+	background-color : #ffddff;
+}
+
+footer{
+	clear : both;
+	margin-top : 50px;
+	height : 50px;
+	background-color : #ddddff;
+}
+
+.clearfix::after {
+    content : '' ;
+    display : block;
+    clear : both;	
+}
